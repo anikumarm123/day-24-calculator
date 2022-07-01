@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="flx">
+    <section class="sec">
+        <div> <input type="text" id="ip" onchange="fun()" placeholder="0"></div>
+        <div class="btn">
+        <div class="ac">
+            <button  onclick="clear1()">AC</button>
+        </div> 
+        <div>
+            <button onclick="fun(1)">1</button>
+            <button onclick="fun(2)">2</button>
+            <button onclick="fun(3)">3</button>
+            <button onclick="fun_1('+')">+</button>
+        </div>
+        <div>
+            <button onclick="fun(4)">4</button>
+            <button onclick="fun(5)">5</button>
+            <button onclick="fun(6)">6</button>
+            <button onclick="fun_1('-')">-</button>
+        </div>
+        <div>
+            <button onclick="fun(7)">7</button>
+            <button onclick="fun(8)">8</button>
+            <button onclick="fun(9)">9</button>
+            <button onclick="fun_1('*')">x</button>
+        </div>
+        <div>
+            <button onclick="fun_1('/')">/</button>
+            <button onclick="fun(0)">0</button>
+            <button onclick="fun('.')">.</button>
+            <button onclick="equal()">=</button>
+        </div>
+        </div>
+    </section>
+</div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

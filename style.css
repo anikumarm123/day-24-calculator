@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(187, 235, 92)
+}
+h1{
+    text-align: center;
+}
+.flx{
+    display: flex;
+    justify-content: center;
+}
+.sec{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(186, 181, 181);
+    border-radius:10px;
+}
+button{
+    background-color: gainsboro;
+    margin: 4px 3px;
+    width: 50px;
+    padding: 15px 12px;
+    font-size: 20px;
+    border: 1px solid gainsboro;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px gray;
+}
+#ip{
+    margin: 10px 10px;
+    padding: 15px 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px gray;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 230px;
+
+}
+.btn{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.ac button{
+    background-color: hsl(0, 88%, 67%);
+}
+
